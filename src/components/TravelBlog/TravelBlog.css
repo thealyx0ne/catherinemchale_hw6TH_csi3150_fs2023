@@ -1,0 +1,39 @@
+body {
+  background-color: #c9c9c9;
+}
+
+.card-wrapper {
+  width: 100%;
+  display: inline;
+}
+
+.card-container {
+  height: 100%;
+  width: 100%;
+  display: inline;
+}
+
+.card-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: x-large;
+  border: 2px solid black;
+  background-image: linear-gradient(lightblue, rgb(103, 103, 252));
+  width: 50%;
+  transform: translate(50%);
+  margin-top: 1%;
+}
+
+.card-image {
+  border: 1px solid black;
+  width: 30%;
+  height: 30%;
+  margin: 1%;
+}
+
+.card-description {
+  margin: 20px;
+  border: 1px solid black;
+  width: 90%;
+  transform: translate(5%);
+  background-image: linear-gradient(rgb(103, 103, 252), lightblue);
+}
